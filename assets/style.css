@@ -1,0 +1,261 @@
+body {
+    font-family: "Montserrat", serif;
+    color: black;
+}
+
+body a {
+    color: black;
+    font-weight: 900;
+    opacity: 1.0;
+    float:left;
+    position:relative;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+a {
+    border-style:solid;
+    border-color:#000000;
+    padding: 0.3em;
+}
+
+#wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    padding-right: 0px; 
+    padding-left: 0px; 
+    position: relative;
+    transition: transform 1s ease;
+    overflow: hidden;
+    outline: 3px solid #fff;
+    outline-offset: -15px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+/* Landing Page */
+.landing {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+.landing h1 {
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    position: relative;
+    top: -120px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 1000px;
+    letter-spacing: 0.15em;
+    word-spacing: 0.1em;
+    color: white;
+}
+
+.landing h3 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000px;
+    position: relative;
+    top: -120px;
+    letter-spacing: 0.15em;
+    color: white;
+}
+
+.landing p {
+    color: #474B4F;
+    font-size: 15px;
+}
+
+/* Education */
+
+.education {
+    height: auto;
+    width: 100%;
+    padding: 10%;
+    font-size: 25px;
+    background-color: #EAE7DC;
+    font-weight: normal;
+    line-height: 1.5em;
+    text-overflow: ellipsis;
+}
+
+.education p {
+    line-height: 2em;
+    color: black;
+}
+
+.education strong {
+    line-height: 2em;
+    color: #E85A4F;
+}
+
+
+/* Resume */
+
+.resume {
+    height: auto;
+    width: 100%;
+    padding: 10%;
+    font-size: 50px;
+    background-color: black;
+    font-weight: normal;
+    color: white;
+    line-height: 1em;
+}
+
+.resume strong {
+    color: #D1E8E2;
+    font-weight: bolder;
+}
+
+.resume #resumeadd {
+    font-size: 20px;
+    padding-top: 100px;
+    color: #47484f;
+}
+
+.resume #resumeadd strong {
+    color: #D1E8E2;
+    font-weight: bolder;
+}
+
+.resume #buttoncenter button {
+    font-size: 20px;
+    background: black;
+    color: white;
+    border: white 2px solid;
+}
+
+.resume #buttoncenter button:hover {
+    background: white;
+    color: black;
+    border: black 2px solid;
+
+}
+
+/* Contact */
+
+.contact {
+    height: auto;
+    width:100%;
+    padding: 5%;
+    font-size: 30px;
+    background-color: #EAE7DC;
+    font-weight: normal;
+    color: black;
+    line-height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact .contactbox {
+    line-height: 1.7em;
+}
+
+.contact #buttoncenter {
+    padding: 5%;
+}
+
+.contact #buttoncenter button {
+    padding: 2%;
+    font-size: 20px;
+    background: black;
+    color: white;
+}
+
+.contact #buttoncenter button:hover {
+    background: white;
+    color: black;
+}
+
+/* footer */
+
+.footer {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #0B0C10;
+    padding: 10px;
+}
+
+.fin {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase
+}
+
+.fin p {
+    font-size: 1vw;
+}
+
+.footericons {
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footericons .fa-linkedin {
+    font-size: 25px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 25%;
+    margin: 5px;
+    border: white 2px solid;
+}
+
+.footericons .fa-linkedin:hover {
+    opacity: 0.3;
+}
+
+.footericons .fa-instagram {
+    font-size: 25px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 25%;
+    margin: 5px;
+    border: white 2px solid;
+}
+
+.footericons .fa-instagram:hover {
+    opacity: 0.3;
+}
+
+
+/* Animations */
+
+.chevron-down {
+  fill: #FFF;
+  margin: auto;
+  width: 5em;
+  height: 5em;
+  animation: hover-me .5s infinite ease-in-out alternate; 
+}
+
+@keyframes hover-me {
+  100% { transform: translate3d(0, 25px, 0); }
+}
